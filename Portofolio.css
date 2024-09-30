@@ -271,6 +271,7 @@ span {
 }
 
 .portfolio-box img {
+    display: flex;
     position: relative;
     top: 250px;
     width: 370px;
