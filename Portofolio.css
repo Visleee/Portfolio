@@ -449,10 +449,6 @@ span {
 }
 
 @media (max-width: 367px) {
-*{
-    width: 100%;
-}
-
     .home-img img {
         width: 50vw;
         align-items: center;
