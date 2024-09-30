@@ -25,6 +25,7 @@ html{
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 .header {
@@ -281,7 +282,7 @@ span {
 .portfolio-box .portfolio-layer {
     position: relative;
     left: 0;
-    width: 22%;
+    width: 2%;
     height: 240px;
     background: linear-gradient(rgba(0,0,0, .1), var(--main-color));
     display: flex;
@@ -368,17 +369,18 @@ span {
 }
 
 @media (max-width: 768px) {
-    #menu-icon {
+    #menu-icon{
         position: fixed;
-        display: block;
-        right: 80px;
-        color: white;
+        display: flex;
+        right: 25px;
+        max-width: 150px;
     }
+
     .navbar {
         position: absolute;
         top: 100%;
         left: 0;
-        width: 10%;
+        width: 100%;
         padding: 1rem;
         background: var(--second-bg-color);
         border-top: .1rem solid var(--text-color);
