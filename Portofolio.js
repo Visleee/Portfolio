@@ -28,10 +28,8 @@ window.onscroll = () => {
 
     header.classList.toggle('sticky', window.scrollY > 100);
 
-    if(!menuIcon.classList.contains('bx-x')) {
-        menuIcon.classList.remove('bx-x');
-        navbar.classList.remove('active');
-    }
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
     
 };
 
