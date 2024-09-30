@@ -367,10 +367,6 @@ span {
 }
 
 @media (max-width: 768px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
     #menu-icon {
         position: fixed;
         display: block;
@@ -421,16 +417,21 @@ span {
     }
 
     .portfolio-box img {
-        width: 210px;
+        position: relative;
+        width: 180px;
+        height: 250px;
+        top: 250px;
     }
 
     .about {
         flex-direction: column-reverse;
+        background-size: cover;
     }
 
     .about img {
         width: 30vw;
         margin-top: 4rem;
+        margin-left: 16rem;
     }
 }
 
